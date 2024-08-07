@@ -1,0 +1,64 @@
+After Training
+========
+Development
+Testing
+Product or Application Support
+Network / System Engineer
+Load Balancing server - Go live - Production - 404 server (47,316,24)
+Production deployment
+========================
+
+Source Control Management
+------------- 
+Visual studio -> Team Explorer -> Source control explorer
+-----------------
+Source code
+====================
+VSS - Visual source safe -> Vb 6.0
+TFS - Team foundation server - Microsoft
+SVN - Tortoise SVN - Third party vendor
+GIT - Code Repositories /Source code maintenence / Project code 
+Oracle - > SQL DEVELOPER / TOAD 
+---------------
+filename.py - new 10 lines added
+version - 1.0,1.1 
+history 
+Comparision 
+
+
+TFS - Team Foundation Server - URL
+Add to Source Control 
+
+CHECKOUT/CHECKIN
+=======================
+Existing file - Check out (To modify)
+
+add /removed the code changes - > Check In -> Give your Comments -> Save/Check in - > version 1.2
+
+It will create a Version for the file/folders
+
+All changes will go to web server - > next system/ machine - > Get Latest Version
+
+Existing file - Check out - no change - > Undo check out or Undo Pending Changes
+
+Terms
+----------
+Checkout -> add code
+Checkin -> Add with comments
+Get latest version
+Undo check out or Undo Pending Changes
+
+Shelve (local copy) to review purpose
+Unshelve - remove the shelve
+
+VSS - Visual Source Safe
+TFS - Team Foundation Server
+GIT
+GITHUB
+
+SVN - Tortoise SVN - Third party-
+SVN Repository - URL - Check out- check in - version control
+
+
+
+
