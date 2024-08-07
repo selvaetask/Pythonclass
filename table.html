@@ -1,0 +1,137 @@
+<!DCOTYPE html>
+<html>
+
+	<head>
+
+		<title>Tables in HTML</title>
+
+		<style>
+
+			body{
+
+				background-color:#ffaa00;
+			}
+
+			table#t1, table#t1 th, table#t1 td{
+
+				border:2px solid red;
+				border-collapse:collapse;
+
+			}
+
+			table#t1{
+					border:3px solid blue;
+					background-color:#ff6666;
+					width:50%;
+					
+				}
+				
+			table#t1 th{
+			
+						background:black;
+						color:white;
+					}
+			table#t1 tr{
+
+					color:#003300;
+				}
+
+			table#t1 tr:hover{
+
+
+					background-color:grey;
+					}
+
+		</style>
+		
+	</head>
+
+	<body >
+
+		<h1>Tables in HTML</h1>
+		
+		<table border="2px" id="t1">
+
+			<tr>
+				<th>Name</th>
+				<th>Mobile 1</th>
+				<th>Mobile 2</th>
+			</tr>
+
+			<tr>
+				<td>Sree</td>
+				<td>12345678</td>
+				<td>11111111</td>
+			</tr>
+			<tr>
+
+				<td>Vikas</td>
+				<td>333333333</td>
+				<td>444444444</td>
+			</tr>
+			
+			<tr>
+
+				<td>Priyanka</td>
+				<td>888888886</td>
+				<td>444444444</td>
+			</tr>
+
+			
+
+		</table><br><br>
+		<h1>Table 2</h1> 	
+		
+
+		<table border="2px">
+
+			<tr>
+
+				<th>Name</th>
+				<th colspan="2">Mobile Numbers</th>
+			</tr>
+
+			<tr>
+
+				<td>Arun</td>
+				<td>4444444444</td>
+				<td>555555555</td>
+			</tr>
+			<tr>
+				<td>Rose</td>
+				<td>999999999</td>
+				<td>888888888</td>
+			</tr>
+
+
+		</table>
+
+		<h1>Table 3</h1>
+
+		<table border="2px">
+
+			<tr>
+
+				<th>Name</th>
+				<th>Arun</th>
+				<th>Rose</th>
+			</tr>
+
+			<tr>
+				<td rowspan="2">Mobile numbers</td>
+				<td>1111111111</td>
+				<td>2222222222</td>
+			</tr>
+			<tr>
+
+				<td>4444444444</td>
+				<td>7777777777</td>
+			</tr>
+
+
+			
+		</table>
+
+	</body>
+
+</html>
